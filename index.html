@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="div-root">
@@ -15,11 +15,11 @@
                 <div class="div-header">
                     <h2 class="titulo-nome">Otávio Rangel</h2>
                     <div>
-                        <a class="fast-travels" href="">Habilidades</a>
-                        <a class="fast-travels" href="">Potifólio</a>
-                        <a class="fast-travels" href="">Experiências</a>
+                        <a onclick="onClickScrollTo('section-habilidades')" class="fast-travels">Habilidades</a>
+                        <a onclick="onClickScrollTo('section-projetos')" class="fast-travels">Potifólio</a>
+                        <a onclick="onClickScrollTo('section-experiencias')" class="fast-travels">Experiências</a>
                     </div>
-                    <button>CONTATO</button>
+                    <button onclick="onClickScrollTo('section-contato')">CONTATO</button>
                 </div>
                 <div class="div-hero">
                     <div class="div-resumo">
@@ -27,9 +27,9 @@
                         <p>Aprendiz de programação desde 2023, com foco <br>
                              em desenvolvimento web, ainda sem experiência <br>
                               no mercado.</p>
-                              <button>ENTRAR EM CONTATO</button>
+                              <button onclick="onClickScrollTo('section-contato')">ENTRAR EM CONTATO</button>
                               <div class="div-icons">
-                                <a>
+                                <a onclick="onClickLink('https://github.com/Otavio251207')">
                                     <img src="imagens/github.png" class="icons">
                                 </a>
                                 <a>
@@ -38,7 +38,7 @@
                                 <a>
                                     <img src="imagens/youtube.png" class="icons">
                                 </a>
-                                <a>
+                                <a onclick="onClickLink('https://www.instagram.com/otaviorangellerbach/')">
                                     <img src="imagens/instagram.png" class="icons">
                                 </a>
                               </div>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-habilidades">
+            <section class="section-habilidades" id="section-habilidades">
                 <div>
                     <h1>Habilidades</h1>
                     <h1 class="verde">que domino.</h1>
@@ -118,7 +118,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-projetos">
+            <section class="section-projetos" id="section-projetos">
                 <div class="div-projetos-titulo">
                     <h1>Portifólio</h1>
                     <h1 class="verde">de projetos.</h1>
@@ -165,7 +165,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-experiencias">
+            <section class="section-experiencias" id="section-experiencias">
                 <div class="div-experiencias-titulo">
                     <h1>Experiências</h1>
                     <h1 class="verde">profissionais.</h1>
@@ -195,7 +195,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-contato text-center">
+            <section class="section-contato text-center" id="section-contato">
                 <div class="div-contato-titulo ">
                     <h1>Como posso</h1>
                     <h1 class="verde">te ajudar?</h1>
@@ -204,11 +204,11 @@
                     <p class="text-contato">Estou a disposição para ajudar o seu projeto ou sua empresa.</p>
                     <div class="contato">
                         <img src="imagens/e-mail.png" class="icon-contato">
-                        <p>otavio@exemplo.com</p>
+                        <a href="malito:lerbach.otavio@gmail.com" class="contato-link">lerbach.otavio@gmail.com</a>
                     </div>
                     <div class="contato">
                         <img src="imagens/telefone.png" class="icon-contato">
-                        (XX) XXXXX-XXXX
+                        <a href="tel:(31)98232-4605" class="contato-link">(31) 98232-4605</a>
                     </div>
                 </div>
             </section>
@@ -216,7 +216,7 @@
                 <div class="footer-div">
                     <h2 class="titulo-nome">Otávio Rangel</h2>
                     <div class="contato-icons">
-                        <a>
+                        <a onclick="onClickLink('https://github.com/Otavio251207')">
                             <img src="imagens/github.png" class="icon">
                         </a>
                         <a>
@@ -225,7 +225,7 @@
                         <a>
                             <img src="imagens/youtube.png" class="icon">
                         </a>
-                        <a>
+                        <a onclick="onClickLink('https://www.instagram.com/otaviorangellerbach/')">
                             <img src="imagens/instagram.png" class="icon">
                         </a>
                       </div>
