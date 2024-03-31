@@ -1,0 +1,135 @@
+@media only screen and (max-device-width: 450px) {
+    br{
+        display: none;
+    }
+    footer{
+        width: 100vw;
+    }
+    button{
+        display: none;
+    }
+    .button-hero{
+        display: block;
+        margin-bottom: 5px;
+    }
+    h1{
+        font-size: 42px;
+    }
+    .div-root{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-content{
+        width: 96vw;
+        max-width: 96vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    
+    }
+    .titulo-nome{
+     font-size: xx-large;
+    }
+    .div-fast-travels{
+        display:none;
+    }
+    .div-hero{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0%;
+    }
+    .div-resumo{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .imagem-hero{
+        height: 100%;
+        width: 290px;
+        margin-bottom: 20px;
+    }
+    .div-icons{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .section-habilidades{
+        margin-top: 40px;
+    }
+    .div-habilidades{
+        display: grid;
+        width: 100%;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 10px;
+    }
+    .div-projetos-titulo{
+        width: 100%;
+    }
+    .div-projetos{
+        display: grid;
+        width: 100%;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 10px;
+    }
+    .card-experiencias{
+        width: 280px;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 25px 5px 25px 5px;
+    }
+    .experiencias-img{
+        border-radius: 10px;
+        width: 55px;
+        height: 55px;
+    }
+    .card-experiencias-text{
+        margin: 0%;
+    }
+    .experincias-subtitle{
+        margin: 0;
+    }
+    .footer-div{
+        width: 100vw;
+        height: 100%;
+    }
+    .titulo-footer{
+        display: none;
+    }
+    .footer-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contato-icons{
+        width: 80%;
+    }
+    .texto-final{
+        margin-top: 0px;
+    }
+}
